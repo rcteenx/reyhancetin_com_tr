@@ -21,7 +21,7 @@ export default function Header() {
   const menu2 = StaticPages.filter((m) => m.id < 100);
   return (
     <header className="h-12 shadow-lg">
-      <div className="mx-auto md:container pl-4 pr-2 py-2 flex items-center justify-between">
+      <div className="mx-auto md:container px-4 md:pr-0 lg:pr-2 py-2 flex items-center justify-between">
         <div className=" w-24 md:w-48 z-50 flex items-center justify-start  h-8 ">
           <h3 className="m-0 p-0 text-sm md:text-2xl">
             <Link
