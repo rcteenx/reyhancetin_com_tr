@@ -1,6 +1,6 @@
 export const siteMetadata = {
   logo: "reyhan çetin",
-  logo_sm: "reyhan çetin",
+  logo_sm: "rç",
   title: "Reyhan Çetin -  Öğreti ve Yollar",
   author: "rcteenx",
   headerTitle: "Reyhan Çetin | Öğreti ve Yollar",
@@ -18,7 +18,7 @@ export const StaticPages = [
     link: "biz",
     titleLong: "Biz'im Hakkımızda",
     description:
-      "İnsan dışardan tek bir fizik beden ve tc kimlik numarası ile temsil edilsek de, içimizde tek ve bütün değiliz: Pek çok farklı duygu, alışkanlık, tutum, rol ve bilgi ve fazlasından oluşan bir yığınız.",
+      "Dışarıdan bakınca tek bir fizik beden ve tc kimlik numarası ile temsil edilsek de, içimizde tek ve bütün değiliz: Pek çok farklı duygu, alışkanlık, tutum, rol, fikir ve fazlasından oluşan bir yığınız.",
     // Dahası, içimizde kendimizi bütünlemeye giden tüm çalışmalar, sonuna doğru ilerlerse bizi dışarı açar tekrar biz olur!
     h1: "Reyhan Çetin Kimdir?",
     par: [

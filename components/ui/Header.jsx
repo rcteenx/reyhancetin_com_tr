@@ -30,7 +30,7 @@ export default function Header() {
               href="/"
             >
               <span className="hidden md:block">{siteMetadata.logo}</span>
-              <span className="black md:hidden">{siteMetadata.logo_sm}</span>
+              <span className="block md:hidden">{siteMetadata.logo_sm}</span>
             </Link>
           </h3>
         </div>
