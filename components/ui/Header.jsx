@@ -21,7 +21,7 @@ export default function Header() {
   const menu2 = StaticPages.filter((m) => m.id < 100);
   return (
     <header className="h-12 shadow-lg">
-      <div className="mx-auto md:container px-4 lg:px-0 py-2 flex items-center justify-between">
+      <div className="mx-auto md:container pl-4 py-2 flex items-center justify-between">
         <div className=" w-24 md:w-48 z-50 flex items-center justify-start  h-8 ">
           <h3 className="m-0 p-0 text-sm md:text-2xl">
             <Link
@@ -33,12 +33,12 @@ export default function Header() {
             </Link>
           </h3>
         </div>
-        <nav className="fixed px-4 border border-solid rounded-full font-light text-xs md:text-base bg-opacity-40 top-2 right-1/2 translate-x-1/2 bg-light/60 backdrop-blur-sm z-50 bg-white flex justify-center items-center h-8">
-          <ul className="flex justify-center items-center gap-2">
+        <nav className="fixed px-4 md:px-6 border border-solid rounded-full font-light text-xs md:text-base bg-opacity-40 top-2 right-1/2 translate-x-1/2 bg-light/60 backdrop-blur-sm z-50 bg-white flex justify-center items-center  h-8">
+          <ul className="flex justify-center items-center gap-0">
             {menu.map((p) => (
               <li
                 key={p.id}
-                className={`border-b border-b-white hover:border-b-primary  `}
+                className={`leading-4 hover:bg-gray-100  rounded-xl py-1 px-3`}
               >
                 {/* ${ id === p.id ? "text-primary" : "" } */}
                 <Link

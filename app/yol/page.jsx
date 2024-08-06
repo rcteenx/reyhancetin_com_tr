@@ -5,7 +5,7 @@ import SocialMedia from "@/components/sections/common/z-social-media";
 export default function StaticPage() {
   return (
     <>
-      <PageInfo id="3" />
+      <PageInfo id="2" />
       <BlueContent h1Title="Farklı Yolların Kısa Tarihi">
         <p>
           Hem iç dünyamızda hem de dış dünyada bir yerlere gitmek istiyoruz;

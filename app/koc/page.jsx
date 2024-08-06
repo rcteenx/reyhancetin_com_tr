@@ -5,7 +5,7 @@ import SocialMedia from "@/components/sections/common/z-social-media";
 export default function StaticPage() {
   return (
     <>
-      <PageInfo id="1" />
+      <PageInfo id="3" />
       <BlueContent h1Title="İnsan'ın Farklı Bölümleri">
         <p>
           İnsan, bir kısmı fiziksel ve gözlemlenebilir bir kısmı da aşkın

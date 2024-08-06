@@ -9,7 +9,7 @@ import SocialMedia from "@/components/sections/common/z-social-media";
 
 export async function generateMetadata() {
   return {
-    title: siteMetadata.title + " - Meta Rehber",
+    title: siteMetadata.title + " - Reyhan Çetin",
   };
 }
 

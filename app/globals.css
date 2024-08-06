@@ -80,22 +80,22 @@
   }
 
   #pgSticker {
-    @apply mt-0 md:-ml-4 md:mr-4 xl:mr-8 px-4 md:px-0 text-gray-600;
+    @apply mt-0 lg:mr-4 lg:px-0 text-gray-600;
   }
   #pgSticker h2 {
-    @apply mb-0 px-4 pt-2 text-xl md:max-w-sm md:text-2xl  rounded-t-2xl;
+    @apply mb-0 pt-2 text-xl md:text-2xl rounded-t-2xl;
   }
   #pgSticker p {
     @apply text-xs sm:text-sm;
   }
   #subMenu {
-    @apply my-2 w-48 rounded-xl;
+    @apply my-2 text-center;
   }
   #subMenu h3 {
-    @apply my-1 text-sm sm:text-base leading-4  inline-block border-b;
+    @apply my-1 text-sm sm:text-base leading-4 inline-block border-b;
   }
   #pgSticker ul {
-    @apply p-0;
+    @apply my-2 p-0 flex items-center justify-center flex-wrap gap-2;
   }
   #pgSticker ul li {
     @apply p-0 m-0 leading-3;
@@ -107,7 +107,7 @@
     @apply text-primary-dark-5  border-b border-primary-dark-5;
   }
   #pgHeader {
-    @apply my-4 md:my-0 container-p flex-1 max-w-4xl bg-gray-100  text-gray-600 shadow-xl border-4 md:border-t-0 border-white;
+    @apply my-4 lg:my-0 px-4 flex-1 max-w-4xl bg-gray-100  text-gray-600 shadow-xl border-8 lg:border-t-0 border-white;
   }
 }
 

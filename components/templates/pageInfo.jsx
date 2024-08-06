@@ -7,15 +7,16 @@ import IconComponent from "@/components/ui/IconComponent";
 export default function PageInfo({ id }) {
   const menu = StaticPages.filter((m) => m.id == id);
   return (
-    <section className=" md:pb-4">
-      <div className="mx-auto container flex flex-col md:flex-row">
+    <section className=" lg:pb-4">
+      <div className="mx-auto container flex flex-col lg:flex-row">
         <div id="pgSticker">
-          <h2>{menu[0].titleLong}</h2>
-          <div className="px-4 pb-2 md:max-w-sm shadow-xl">
+          <div className="mx-auto px-4 pb-2 lg:max-w-sm shadow-xl">
+            <h2>{menu[0].titleLong}</h2>
             <div>
               <p>{menu[0].description}</p>
-              <div className="flex justify-around items-center gap-0">
-                {/* <div id="subMenu">
+              <div className="my-4 flex justify-around items-center gap-0 border rounded-xl">
+                <div id="subMenu">
+                  <h3>İlgili Sayfalar</h3>
                   <ul>
                     {menu[0].pages.map((p) => (
                       <li key={p.id}>
@@ -25,15 +26,6 @@ export default function PageInfo({ id }) {
                       </li>
                     ))}
                   </ul>
-                </div> */}
-                <div className="w-48 flex justify-center">
-                  <IconComponent
-                    name={menu[0].icon}
-                    size={80}
-                    color="#333366"
-                    alt={menu[0].title}
-                    title={menu[0].titleLong}
-                  />
                 </div>
               </div>
             </div>

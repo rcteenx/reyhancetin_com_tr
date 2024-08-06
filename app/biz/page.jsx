@@ -5,8 +5,8 @@ import SocialMedia from "@/components/sections/common/z-social-media";
 export default function StaticPage() {
   return (
     <>
-      <PageInfo id="0" />
-      <BlueContent h1Title="Meta Rehber'in Hikayesi">
+      <PageInfo id="1" />
+      <BlueContent h1Title="Reyhan Çetin'in Hikayesi">
         <h3>Meta Kavramı</h3>
         <p>
           Meta, bu platformda iki anlamda kullanılmıştır. İlki, Aristo'nun
@@ -33,12 +33,6 @@ export default function StaticPage() {
           ve hedef ile yaklaşımlarını ayrı bir kategori sistemiyle
           karşılaştırmamızı sağlar.
         </p>
-        <h2>Rehber</h2>
-        <p>
-          Bu platform, herhangi bir öğreti ya da yolculuğun rehberliğini yapmayı
-          amaçlamıyor. Tam tersine, bir Meta Rehber olarak, öğreti ve yolculuk
-          alternatifleriyle ilgili ortak bir alandan bilgi sunmayı amaçlıyor.
-        </p>
         <p>
           Herhangi biri dini ritüeller ve dua ile yola çıkıyor olabilir; bir
           başkası günlük hayatın içinde farkındalık pratikleri yapabilir, bir
@@ -46,7 +40,6 @@ export default function StaticPage() {
           Bunların hepsi kişileri bir yolculuğa çıkarıyor. Ancak kim nereye
           nasıl gidiyor, bunu karşılaştırma imkanı sunmuyor.
         </p>
-        <h4>Meta Rehber Benzetmesi</h4>
         <p>
           Diyelim ki İstanbul'dan Ankara'ya gitmek istiyorsunuz. Gidilecek pek
           çok farklı araç ve yol var. Öncelikle uçak bir seçim olabilir. Pek çok
