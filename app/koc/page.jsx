@@ -6,7 +6,7 @@ export default function StaticPage() {
   return (
     <>
       <PageInfo id="3" />
-      <BlueContent h1Title="İnsan'ın Farklı Bölümleri">
+      <BlueContent h2Title="İnsan'ın Farklı Bölümleri">
         <p>
           İnsan, bir kısmı fiziksel ve gözlemlenebilir bir kısmı da aşkın
           (deneyüstü) olmak üzere iki farklı bölümden oluşur. Her ikisinin

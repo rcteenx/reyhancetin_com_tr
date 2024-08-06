@@ -16,16 +16,17 @@ export const StaticPages = [
     id: 1,
     title: "biz",
     link: "biz",
-    titleLong: "Biz'im Hakkımızda",
+    titleLong: "Biz Hakkında",
     description:
-      "Dışarıdan bakınca tek bir fizik beden ve tc kimlik numarası ile temsil edilsek de, içimizde tek ve bütün değiliz: Pek çok farklı duygu, alışkanlık, tutum, rol, fikir ve fazlasından oluşan bir yığınız.",
-    // Dahası, içimizde kendimizi bütünlemeye giden tüm çalışmalar, sonuna doğru ilerlerse bizi dışarı açar tekrar biz olur!
+      "Dışarıdan bakınca tek bir fizik beden ve tc kimlik numarası ile temsil edilsek de, içimizde tek ve bütün değiliz: Pek çok farklı duygu, alışkanlık, tutum, rol, fikir ve fazlasından oluşan bir yığınız. Her biri iktidar olmak isteyen bu küçük ben'lerin savaşı, hepimizi yolculuğa başlatıyor.",
     h1: "Reyhan Çetin Kimdir?",
     par: [
-      "Bu platformunda, kişinin kendini tanıma ve aşma yolculuğuna destek olan alternatif öğreti ve çalışmaları, belli bir çerçeve içinde kategorilendirme ve özetlemeyi amaçlıyoruz.",
-      "Kendini tanıma, kahramanın yolculuğu, aydınlanma, içsel gelişim, arayış, hayatın anlamı... vb gibi pek çok farklı ifadeyi, olabildiğince genelleyerek, 'yolculuk' olarak tanımlayacağız. ",
-      "Bu yolculuk için geliştirilmiş, farklı diyarlara, farklı amaçlar ve yöntemlerle giden yüzlerce dikkate değer öğreti var. Öğretileri anlamak için, belli bir emek ve zaman gerekiyor. Tüm öğretiler için bu yatırımı yapmak neredeyse imkansız.",
-      "Sevgilerle...",
+      "Reyhan, yaklaşık 25 yıldır bilinç ve farkındalık çalışmaları yapıyor ve yönetiyor. Önce bir arayış olarak başlayan süreç, sonrasında ezoterik felsefe çalışmalarına yöneldi.",
+      "Yaklaşık 10 yıl boyunca çeşitli gruplarla çalıştıktan sonra, kendi çalışmalarını yönetmeye başladı. Eğitmenlik döneminde binlerce seminer verdi ve yüzlerce katılımcıya ulaşan moderatörlü grup çalışmalarını yönetti.",
+      // Ayakları yere sağlam basan bilimse
+      "Pandemi döneminde yüz yüze çalışmalarını durdurdu. Ardından bilinç çalışmalarının ötesinde, sessizlik ve ikinci bir arayış dönemini başladı. Dünyayı yorumlamaya yönelik ben bilincini, her şeyin ötesindeki saf farkındalıktan ayırmayı anladığında, gerçek sevgi ve biz halini yaşatan bütünlüğü kavradı.",
+      "Çalışmalarının ortak dünyada sağlam bir zemine oturması ve daha fazla insana ulaşması için, ICF standartlarında kabul edilen koçluk etik ve yetkinliklerini benimseyerek, çalışmalarını bu sisteme göre yeniden düzenledi.",
+      "Şimdi ezoterik felsefe eğitimleri, grup çalışmaları ve koçluk seanslarıyla, yolculuğa devam edenlere bilinç ve farkındalığını kiralayarak yol arkadaşlığı yapmaya çalışıyor.",
     ],
     icon: "platform",
     pages: [

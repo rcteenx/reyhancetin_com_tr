@@ -6,63 +6,46 @@ export default function StaticPage() {
   return (
     <>
       <PageInfo id="1" />
-      <BlueContent h1Title="Reyhan Çetin'in Hikayesi">
-        <h3>Meta Kavramı</h3>
+      <BlueContent h2Title="Reyhan Çetin'in 30 Yıllık Kısa Yolculuğu">
         <p>
-          Meta, bu platformda iki anlamda kullanılmıştır. İlki, Aristo'nun
-          "Metafizik" başlığı altındaki kitaplarında geçen "ötesi" anlamıdır.
-          İkincisi ise, "meta veri" ifadesinde kullanılan, verinin içeriğini
-          değil, dışsal bilgilerini tutan veri başlıkları anlamındadır.
+          Hiç olmayan bir şeyin yokluğunu hissettiniz mi? Tam olarak eksik
+          olanın ne olduunu da bilmeden aramaya başlıyor insan. Üçüncü bir kol
+          ya da gözün eksikliği gibi. Bir şey arıyoruz, ama aradığımız şey zaten
+          hiçkimsede ya da hiçbir yerde yok.
         </p>
         <p>
-          Ötesi anlamında Meta ile, bilinen fizik ve deneyim/gözlem dünyasının
-          ötesine geçecek yolcukları işaret ediyoruz. Pek çok yolculuk, bir
-          biçimde bilinen dünyanın sınırlarına dayanıyor, bazı cesur maceracılar
-          bilinmezliğin içine girmeyi başarıyor. Bu anlamıyla meta, doğrulanmış
-          ve test edilebilir gerçekliğin ötesindeki bir gerçekliği ifade etmek
-          için kullanılıyor.
+          Bir süre sonra sönüyor bu ateş. Hayatın olağan akışı, tekrar her şeyi
+          önüne katıp sürüklemeye başlıyor.
+        </p>
+        <h3>Ben Kimim ya da NE?</h3>
+        <p>
+          Aşık olduğunuz ve sevdiğiniz bir insanın da sizi sevmesini
+          istiyorsunuz; ama paranızı, kariyerinizi, fiziksel güzelliğinizi ya da
+          yaptığınız şakaları sevmesi sizi rahatsız etmez mi? Seni sen olduğun
+          için sevmesini istemez misin? Peki tüm bunların ötesindeki ben kimim
+          ya da NE?
         </p>
         <p>
-          Kişinin hem bilinen hem de bilinmeyen diyarlarda yolculuk yapmasına
-          destek olacak haritalar, yöntemler, bazen rehberler ya da hocalar
-          sunan pek çok öğreti vardır. Bu öğretilerin içerikleri ve
-          yaklaşımları, elma ve armut, hatta karpuz kadar farklıdır. Ancak,
-          bunlara dışarıdan baktığımızda, belli özellikleriyle ortak
-          kategorilere koymak ve karşılaştırmalı olarak çalışmak mümkündür. Bu
-          bağlamda meta veri, öğretileri farklı biçimlerde kategorize etmemizi
-          ve hedef ile yaklaşımlarını ayrı bir kategori sistemiyle
-          karşılaştırmamızı sağlar.
+          Çoğu insan kendisini bedeni sanıyor, bazıları duyguları ya da
+          aklındaki düşünceler. Duygular sürekli dalgalanıyor, düşünceler
+          zamanında birilerinizin kafamıza ektiği tohumların meyveleri, beden
+          ise sadece kaderin bir oyunu.
+        </p>
+        <h3>Hayatı Durdurma</h3>
+        <p>
+          Önemli bir sorunun cevabını bulamadığımda, pek çok kez hayatı durdurma
+          lüksüm oldu. Bu soru hayatın öyle bir merkezine yerleşti ki, bunun
+          cevabını vermeden yapılacak her şey, başında "1" olmayan bir sürü "0"
+          gibi anlamsız olacaktı.
         </p>
         <p>
-          Herhangi biri dini ritüeller ve dua ile yola çıkıyor olabilir; bir
-          başkası günlük hayatın içinde farkındalık pratikleri yapabilir, bir
-          diğeri ise bilimsel yolda bir terapist ile çalışıyor olabilir.
-          Bunların hepsi kişileri bir yolculuğa çıkarıyor. Ancak kim nereye
-          nasıl gidiyor, bunu karşılaştırma imkanı sunmuyor.
+          Elbetteki zamanı durduramıyorum. Dışarda bir şeyler olmaya devam
+          ediyor. Ancak ben oturdum ve bekliyorum. Nereye gittiğini bilmeden
+          herhangi bir yöne yürümenin anlamsızlığı gibi; kim olduğunu bilmeden
+          de belli bir yöne gidemiyor insan.
         </p>
-        <p>
-          Diyelim ki İstanbul'dan Ankara'ya gitmek istiyorsunuz. Gidilecek pek
-          çok farklı araç ve yol var. Öncelikle uçak bir seçim olabilir. Pek çok
-          farklı firma ve saat seçimi yapılmalı. İkinci alternatif diğer toplu
-          ulaşım araçları olabilir: Tren, otobüs. Bazıların firma ve saat seçimi
-          daha serbest olabilir. Varsa kendi aracınızla gidebilirsiniz ya da bir
-          arkadaşınız gidiyorsa onun yanına katılabilirsiniz.
-        </p>
-        <p>
-          Kişinin kendini tanıması, bazı arızalarını düzeltmesi ve kendisini
-          aşması için yukarıdaki kategorik olarak farklı alternatiflerden daha
-          fazla yol ve öğreti var. Üstelik varılacak hedef de pek çoğunda
-          farklı: Bazıları İstanbul'da bir mahalleden diğerine götürüyor,
-          bazıları Bolu Dağları'nda bırakıyor, bir diğeri yurt dışına çıkıp
-          Almanya'ya iltica etmeni sağlıyor.. uzaya, aya ve hatta Mars'a götüren
-          bile var.
-        </p>
-        <p>
-          Kısaca, tıpkı internette ürünlerin fiyatlarını karşılaştıran,
-          ürünlerle ilgili şikayet ve yorumları bulabileceğiniz siteler gibi,
-          biz de "yolculuk" ile ilgili meta verileri sunmak ve kendimizce
-          yolculuğunuza destek olmak istiyoruz.
-        </p>
+        <h3>Güvenli Liman</h3>
+        <p>Aradığım bir cevap vardı, ama bu cevabı oldukça konforlu</p>
       </BlueContent>
       <SocialMedia />
     </>

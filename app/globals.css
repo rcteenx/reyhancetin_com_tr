@@ -92,7 +92,7 @@
     @apply my-2 text-center;
   }
   #subMenu h3 {
-    @apply my-1 text-sm sm:text-base leading-4 inline-block border-b;
+    @apply my-1 text-sm sm:text-base leading-4 inline-block;
   }
   #pgSticker ul {
     @apply my-2 p-0 flex items-center justify-center flex-wrap gap-2;
@@ -101,13 +101,19 @@
     @apply p-0 m-0 leading-3;
   }
   #pgSticker li a {
-    @apply text-xs sm:text-sm  text-primary-light-3 border-b border-white;
+    @apply text-xs sm:text-sm text-primary-light-3 border-b border-primary;
   }
   #pgSticker li a:hover {
-    @apply text-primary-dark-5  border-b border-primary-dark-5;
+    @apply text-primary-light-5  border-b border-primary-light-5;
   }
   #pgHeader {
     @apply my-4 lg:my-0 px-4 flex-1 max-w-4xl bg-gray-100  text-gray-600 shadow-xl border-8 lg:border-t-0 border-white;
+  }
+  #pgHeader h1 {
+    @apply mt-4;
+  }
+  #pgHeader p {
+    @apply my-2;
   }
 }
 
