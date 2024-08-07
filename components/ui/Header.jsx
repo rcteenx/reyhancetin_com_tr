@@ -39,7 +39,7 @@ export default function Header() {
             {menu.map((p) => (
               <li
                 key={p.id}
-                className={`leading-4 hover:bg-gray-100 rounded-xl p-1 md:px-2`}
+                className={`leading-4 hover:bg-gray-100 rounded-xl py-1 px-2 md:px-3`}
               >
                 {/* ${ id === p.id ? "text-primary" : "" } */}
                 <Link

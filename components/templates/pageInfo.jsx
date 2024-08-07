@@ -14,7 +14,7 @@ export default function PageInfo({ id }) {
             <h2>{menu[0].titleLong}</h2>
             <div>
               <p>{menu[0].description}</p>
-              <div className="my-4 flex justify-around items-center gap-0 border rounded-xl gradientPrimaryLD">
+              {/* <div className="my-4 flex justify-around items-center gap-0 border rounded-xl gradientPrimaryLD">
                 <div id="subMenu">
                   <h3>İlgili Sayfalar</h3>
                   <ul>
@@ -27,7 +27,7 @@ export default function PageInfo({ id }) {
                     ))}
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

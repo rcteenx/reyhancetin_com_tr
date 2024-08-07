@@ -61,18 +61,17 @@ export const StaticPages = [
     id: 3,
     title: "koç",
     link: "koc",
-    titleLong: "İnsanın Katmanları",
+    titleLong: "Yol Arkadaşı",
     description:
-      "İnsan çok boyutlu bir varlıktır: İç içe geçmiş ve her biri diğerinden bağımsız farklı katmanlardan oluşur.",
-    h1: "İNSAN NEDİR?",
+      "Çeşitli yol çalışmalarda, öğrenci, yol arkadaşı, eğitmen, hoca, kaptan ve moderatör olarak bulundum. Ancak bunların neredeyse hepsinde, birbirimizi tam olarak anlayamadan kendi doğrularımızla dışarıdan destek olmaya çalıştık. Ancak sadece koçluk, hiyerarşik olarak eşit, pozitif, güvenilir ve etik standartlara dayalı bir çalışma alanında sağlıyor.",
+    // İnsanın kendini gerçekleştirmesi yolunda yapılan yol arkadaşlığı.
+    h1: "KOÇLUK NE DEĞİLDİR?",
     par: [
-      "Pek çok insan için arayışın ve yolculuğun başladığı ilk sorulardan biri:",
-      "Ben kimim ya da NE?",
-      "Bu ve benzeri sorularla, bazı insanlar kendilerine doğru bir arayış yolculuğuna başlıyor. Çoğu zaman ne aradıklarını bilmeden. Olmayan bir şeyin eksikilğini hissederek başlayan bir yolculuk.",
-      "Peki bir cevabı var mı?",
-      "Herkes için tek ve mutlak doğru bir cevap yok. Pek çok farklı alternatif cevaplar var. Ancak pek çok cevap arasında, sizin için uygun olan hangisi?",
-      "Çok katmanlı insan modelimizi, önce kendimizi anlamak için kullanacağız. Sonrasında, çeşitli yolları sınıflandırmak ve yoldaki konumunu anlamaya çalışacağız. ",
-      "Sevgilerle...",
+      // Her bir madde sonunda,koçluğun belirli bir özelliğini anlatalım.
+      "Eğitmenlik, danışmanlık ya da mentorluk değildir. Koç kendi bilgi, uzmanlık ya da deneyimlerine bağlı olarak müşterisine tavsiyede bulunmaz.",
+      "Terapi değildir. Geçmiş travma, duygusal problemler üzerinde çalışmaz. Gündelik hayatına devam edecek kadar sağlıklı olan müşterilerin, gelecekteki hedeflerine ilerlemelerine destek olur.",
+      "Arkadaşlık değildir. Koçluk profesyonel bir ilişkidir. Etik kurallarına bağlı, objektif bir bakış açısı sunar. Müşterinin kendi gerçekliğini bulmasına destek olur.",
+      "Yöneticilik değildir. Yöneticiler, çalışanlarının koyulan hedefe ulaşması için yönlendirir ve kontrol eder. Ancak koç, müşterinin kendi hedeflerini belirlemesine destek olur ve o yolda ilerlemesine destek olur.",
     ],
     icon: "human",
     pages: [
