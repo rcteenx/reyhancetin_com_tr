@@ -110,7 +110,7 @@
     @apply my-4 lg:my-0 px-4 flex-1 max-w-4xl bg-gray-100  text-gray-600 shadow-xl border-8 lg:border-t-0 border-white;
   }
   #pgHeader h1 {
-    @apply mt-4;
+    @apply mt-4 text-center lg:text-left;
   }
   #pgHeader p {
     @apply my-2;

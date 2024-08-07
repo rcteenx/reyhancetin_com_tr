@@ -1,6 +1,6 @@
 export const siteMetadata = {
   logo: "reyhan çetin",
-  logo_sm: "rç",
+  logo_sm: "r.çetin",
   title: "Reyhan Çetin -  Öğreti ve Yollar",
   author: "rcteenx",
   headerTitle: "Reyhan Çetin | Öğreti ve Yollar",
@@ -19,11 +19,10 @@ export const StaticPages = [
     titleLong: "Biz Hakkında",
     description:
       "Dışarıdan bakınca tek bir fizik beden ve tc kimlik numarası ile temsil edilsek de, içimizde tek ve bütün değiliz: Pek çok farklı duygu, alışkanlık, tutum, rol, fikir ve fazlasından oluşan bir yığınız. Her biri iktidar olmak isteyen bu küçük ben'lerin savaşı, hepimizi yolculuğa başlatıyor.",
-    h1: "Reyhan Çetin Kimdir?",
+    h1: "REYHAN ÇETİN KİMDİR?",
     par: [
       "Reyhan, yaklaşık 25 yıldır bilinç ve farkındalık çalışmaları yapıyor ve yönetiyor. Önce bir arayış olarak başlayan süreç, sonrasında ezoterik felsefe çalışmalarına yöneldi.",
       "Yaklaşık 10 yıl boyunca çeşitli gruplarla çalıştıktan sonra, kendi çalışmalarını yönetmeye başladı. Eğitmenlik döneminde binlerce seminer verdi ve yüzlerce katılımcıya ulaşan moderatörlü grup çalışmalarını yönetti.",
-      // Ayakları yere sağlam basan bilimse
       "Pandemi döneminde yüz yüze çalışmalarını durdurdu. Ardından bilinç çalışmalarının ötesinde, sessizlik ve ikinci bir arayış dönemini başladı. Dünyayı yorumlamaya yönelik ben bilincini, her şeyin ötesindeki saf farkındalıktan ayırmayı anladığında, gerçek sevgi ve biz halini yaşatan bütünlüğü kavradı.",
       "Çalışmalarının ortak dünyada sağlam bir zemine oturması ve daha fazla insana ulaşması için, ICF standartlarında kabul edilen koçluk etik ve yetkinliklerini benimseyerek, çalışmalarını bu sisteme göre yeniden düzenledi.",
       "Şimdi ezoterik felsefe eğitimleri, grup çalışmaları ve koçluk seanslarıyla, yolculuğa devam edenlere bilinç ve farkındalığını kiralayarak yol arkadaşlığı yapmaya çalışıyor.",
@@ -42,13 +41,12 @@ export const StaticPages = [
     link: "yol",
     titleLong: "Kendimize Yolculuk",
     description:
-      "Bir kişinin ayak izleri kolaylıkla silinebilir. Ancak bir grup ilerliyorsa, bir patika oluşur.",
+      "Nasıl kendimize hem bu kadar yakın, ama aynı zamanda çok uzak oluruz. Memleketten, yıldızlardan ve hatta gençliğimizden çok daha uzak bir yerde bekliyoruz kendimizi. Yapılması gereken kutsal bir yolculuk: Kendimizden bir başka kendimize doğru.",
     h1: "KENDİNİ TANIMA YOLLARI",
     par: [
-      "Hepimiz önce dışsal sebeplerle, hatta farkında bile olmadığımız çevresel yönlendirmelerle yola çıktık. Ancak bir süre sonra bazılarımız aradığını dış dünyada bulamayacağını anlayıp, yolculuğu önce içe sonra da meta fizik diyarlara yönlendirdi.",
-      "Kendini tanımaya, aydınlanmaya, uyanmaya, nirvana, cennet, tanrı ya da benzeri bir yerlere giden pek çok yol var. Ancak hangisi sizin için? Nereye gideceğinizi bilmiyorsanız, hangi yöne gittiğinizin önemi var mı?",
-      "Burada pek çok yolu, kendi penceremizden anlatmaya çalışacağız. Tüm bu platformun, meta gerçeklik yolcuları için bir rehber olmasını umuyoruz.",
-      "Sevgilerle...",
+      "Bir kişiyi tanımanın etkili yollarından birinin onunla birlikte seyahat etmek olduğu söylenir. Bazı kişiler ise borç para vermek ya da yetki tanımak suretiyle insanların gerçek yüzünü görebileceklerine inanır. Eskiler, insanları tanımaya memleketlerini ve mesleklerini öğrenerek başlardı. Bu yaklaşımlar, belirli ölçülerde geçerli sayılabilir. Peki, kişi kendisini tanımak için ne yapmalı?",
+      "Kendini tanıma, mutluluğa ulaşma, acıdan kaçınma, yaşamı dengeleme, öfkeden kurtulma, aydınlanma, uyanma, nirvana, cennet ya da tanrı gibi hedeflere ulaşmak için birçok yol bulunmaktadır. Ancak, kişi hangi yolun kendisi için en uygun olduğunu nasıl belirleyebilir? Gideceğiniz yeri bilmiyorsa, hangi yöne gittiğinin bir önemi var mı?",
+      "İnsan çok boyutlu bir varlık. İçinde bir çocuk var, yetişkin de; öğrenilmiş davranış kalıpları da var, sahtelikler de; bilinç ve farkındalık da var. Kişi bunların hangisini sahiplenip, direksiyonu o yola çevirmeli?",
     ],
     icon: "way",
     pages: [

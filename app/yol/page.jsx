@@ -6,7 +6,7 @@ export default function StaticPage() {
   return (
     <>
       <PageInfo id="2" />
-      <BlueContent h2Title="Farklı Yolların Kısa Tarihi">
+      <BlueContent h2Title="Biz'e Giden Farklı Yolların Kısa Tarihi">
         <p>
           Hem iç dünyamızda hem de dış dünyada bir yerlere gitmek istiyoruz;
           ancak bunu isteyen ne ilk ne de son kişiyiz. Bizden çok önceleri
