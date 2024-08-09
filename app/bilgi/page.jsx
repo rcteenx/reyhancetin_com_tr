@@ -1,19 +1,20 @@
 import PageInfo from "@/components/templates/pageInfo";
 import BlueContent from "@/components/templates/blueContent";
+import SubMenu from "@/components/sections/common/sub-menu";
 import SocialMedia from "@/components/sections/common/z-social-media";
 
 export default function StaticPage() {
   return (
     <>
       <PageInfo id="3" />
-      <BlueContent h2Title="Farklı Çalışma Yöntemleri">
+      <BlueContent h2Title="Farklı Koçluk Türleri">
         <p>Hocalar, moderatörler... vs.</p>
         <p>
           İnsan, bir kısmı fiziksel ve gözlemlenebilir bir kısmı da aşkın
           (deneyüstü) olmak üzere iki farklı bölümden oluşur. Her ikisinin
           arasında da, bilinç diyebileceğimiz bir ara katman bulunur.
         </p>
-        <h3>Fiziki Bölümler</h3>
+        <h3>Yaşam Koçluğu</h3>
         <p>
           Öz ve kişilik, dışardan gözlemlenebilir iki önemli parçamız. Öz,
           doğuştan gelen temel özelliklerimiz, kişilik ise sonradan öğrenme ve
@@ -31,7 +32,7 @@ export default function StaticPage() {
           sorumluluk sahibi, sürekli hesap kitap peşinde ve dünyayı sırtında
           taşıyan bir ebeveyn.
         </p>
-        <h3>Aşkın / Deneyüstü Diyarlara Geçiş</h3>
+        <h3>Kariyer Koçluğu</h3>
         <p>
           Bu tarafımızla tanışmak ve anlamak için, olağan algı ve bakış açımızın
           sınırlarının ötesine geçmemiz gerekiyor. Modern bilim, fiziki
@@ -46,26 +47,15 @@ export default function StaticPage() {
           koruyan sağlam araçlar olmadan yolumuzu bulmak pek kolay değil. Meta
           Rehber, özellikle böylesi bir gezintiye sizleri hazırlamaya çalışıyor.
         </p>
-        <h3>Aşkın Bölümlerimiz</h3>
+        <h3>Yönetici Koçluğu</h3>
         <p>
           Bilinç ve farkındalık (aşkın benlik) olağan gerçekliğin ötesindeki iki
           ana parçamız. Bilinç dünya ile ilgili etkileşimde, ancak saf
           farkındalık sadece hiçliğin ortasında aşkın bir ben hissi.
         </p>
-        <p>
-          Bilinç, bizi diğer hayvanlardan ayıran ve fiziki dünyada üstünlük
-          kurmamızı sağlayan tarafımız. Tüm medeniyetimiz ve hatta bilim bile bu
-          bilinç üzerine kurulmuş. Bilinç, bir dereceye kadar, kendi kendisini
-          mükemmelleştirme ve geliştirme beceresine sahip.
-        </p>
-        <p>
-          Saf farkındalık, bilincin ve muhtemelen bildiğimiz tüm dünyanın asıl
-          kaynağı. Bunu bilince doğru yolu gösteren, Kutup Yıldızı gibi kabul
-          edebiliriz. Bilinç bir şeyi doğru yapmamız için çabalarken,
-          farkındalık doğru şeyi yapmamızı sağlayan tarafımız. Saf farkındalığı
-          bazı öğretilerde, sezgi ya da vicdan tanımıyla da görebiliriz.
-        </p>
+        <h3>Performans Koçluğu</h3>
       </BlueContent>
+      <SubMenu />
       <SocialMedia />
     </>
   );

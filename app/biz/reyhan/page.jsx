@@ -1,12 +1,11 @@
 import PageInfo from "@/components/templates/pageInfo";
 import BlueContent from "@/components/templates/blueContent";
-import SubMenu from "@/components/sections/common/sub-menu";
 import SocialMedia from "@/components/sections/common/z-social-media";
 
 export default function StaticPage() {
   return (
     <>
-      <PageInfo id="1" />
+      <PageInfo id="1" id2="1" />
       <BlueContent h2Title="Reyhan Çetin'in 30 Yıllık Kısa Yolculuğu">
         <p>
           Hiç olmayan bir şeyin yokluğunu hissettiniz mi? Tam olarak eksik
@@ -48,7 +47,6 @@ export default function StaticPage() {
         <h3>Güvenli Liman</h3>
         <p>Aradığım bir cevap vardı, ama bu cevabı oldukça konforlu</p>
       </BlueContent>
-      {/* <SubMenu /> */}
       <SocialMedia />
     </>
   );

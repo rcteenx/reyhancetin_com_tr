@@ -29,10 +29,32 @@ export const StaticPages = [
     ],
     icon: "platform",
     pages: [
-      { id: 1, title: "Meta", link: "hakkimizda/meta" },
-      { id: 2, title: "Rehber", link: "hakkimizda/rehber" },
-      { id: 3, title: "Reyhan", link: "hakkimizda/reyhan" },
-      { id: 4, title: "Arkadaşlar", link: "hakkimizda/arkadaslar" },
+      {
+        id: 1,
+        title: "Reyhan",
+        link: "reyhan",
+        titleLong: "Reyhan Hakkında",
+        description:
+          "Dışarıdan bakınca tek bir fizik beden ve tc kimlik numarası ile temsil edilsek de, içimizde tek ve bütün değiliz: Pek çok farklı duygu, alışkanlık, tutum, rol, fikir ve fazlasından oluşan bir yığınız. Her biri iktidar olmak isteyen bu küçük ben'lerin savaşı, hepimizi yolculuğa başlatıyor.",
+        h1: "REYHAN ÇETİN KİMDİR?",
+        par: [
+          "Reyhan, yaklaşık 25 yıldır bilinç ve farkındalık çalışmaları yapıyor ve yönetiyor. Önce bir arayış olarak başlayan süreç, sonrasında ezoterik felsefe çalışmalarına yöneldi.",
+          "Yaklaşık 10 yıl boyunca çeşitli gruplarla çalıştıktan sonra, kendi çalışmalarını yönetmeye başladı. Eğitmenlik döneminde binlerce seminer verdi ve yüzlerce katılımcıya ulaşan moderatörlü grup çalışmalarını yönetti.",
+          "Pandemi döneminde yüz yüze çalışmalarını durdurdu. Ardından bilinç çalışmalarının ötesinde, sessizlik ve ikinci bir arayış dönemini başladı. Dünyayı yorumlamaya yönelik ben bilincini, her şeyin ötesindeki saf farkındalıktan ayırmayı anladığında, gerçek sevgi ve biz halini yaşatan bütünlüğü kavradı.",
+          "Çalışmalarının ortak dünyada sağlam bir zemine oturması ve daha fazla insana ulaşması için, ICF standartlarında kabul edilen koçluk etik ve yetkinliklerini benimseyerek, çalışmalarını bu sisteme göre yeniden düzenledi.",
+          "Şimdi ezoterik felsefe eğitimleri, grup çalışmaları ve koçluk seanslarıyla, yolculuğa devam edenlere bilinç ve farkındalığını kiralayarak yol arkadaşlığı yapmaya çalışıyor.",
+        ],
+        icon: "platform",
+        pages: [
+          { id: 1, title: "Ben", link: "ben" },
+          { id: 2, title: "Rollerim", link: "rollerim" },
+          { id: 3, title: "Çocuk", link: "cocuk" },
+          { id: 4, title: "Bilinç", link: "bilinc" },
+          { id: 5, title: "Farkındalık", link: "farkindalik" },
+        ],
+      },
+      { id: 2, title: "Arkadaşlar", link: "arkadaslar" },
+      { id: 3, title: "İnsan", link: "İnsan" },
     ],
   },
   {
@@ -59,9 +81,9 @@ export const StaticPages = [
   },
   {
     id: 3,
-    title: "koç",
-    link: "koc",
-    titleLong: "Yol Arkadaşı",
+    title: "bilgi",
+    link: "bilgi",
+    titleLong: "Bilbi Sayfaları",
     description:
       "Çeşitli yol çalışmalarda, öğrenci, yol arkadaşı, eğitmen, hoca, kaptan ve moderatör olarak bulundum. Ancak bunların neredeyse hepsinde, birbirimizi tam olarak anlayamadan kendi doğrularımızla dışarıdan destek olmaya çalıştık. Ancak sadece koçluk, hiyerarşik olarak eşit, pozitif, güvenilir ve etik standartlara dayalı bir çalışma alanında sağlıyor.",
     // İnsanın kendini gerçekleştirmesi yolunda yapılan yol arkadaşlığı.

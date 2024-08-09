@@ -4,8 +4,12 @@ import { StaticPages } from "@/content/data/siteMetaData";
 
 import IconComponent from "@/components/ui/IconComponent";
 
-export default function PageInfo({ id }) {
-  const menu = StaticPages.filter((m) => m.id == id);
+export default function PageInfo({ id, id2 }) {
+  var menu = StaticPages.filter((m) => m.id == id);
+  if (id2 >= 0) {
+    menu = menu[0].pages.filter((m) => m.id == id2);
+    // console.log(menu);
+  }
   return (
     <section className=" lg:pb-4">
       <div className="mx-auto container flex flex-col lg:flex-row">
@@ -14,7 +18,7 @@ export default function PageInfo({ id }) {
             <h2>{menu[0].titleLong}</h2>
             <div>
               <p>{menu[0].description}</p>
-              {/* <div className="my-4 flex justify-around items-center gap-0 border rounded-xl gradientPrimaryLD">
+              <div className="my-4 flex justify-around items-center gap-0 border rounded-xl gradientPrimaryLD">
                 <div id="subMenu">
                   <h3>İlgili Sayfalar</h3>
                   <ul>
@@ -27,7 +31,7 @@ export default function PageInfo({ id }) {
                     ))}
                   </ul>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
