@@ -5,7 +5,7 @@ import SocialMedia from "@/components/sections/common/z-social-media";
 export default function StaticPage() {
   return (
     <>
-      <PageInfo id="1" id2="1" />
+      <PageInfo id="11" />
       <BlueContent h2Title="Reyhan Çetin'in 30 Yıllık Kısa Yolculuğu">
         <p>
           Hiç olmayan bir şeyin yokluğunu hissettiniz mi? Tam olarak eksik

@@ -11,6 +11,8 @@ export const siteMetadata = {
   email: "rhan.cetinx@gmail.com",
 };
 
+export const MainNav = [1, 2, 3, 8];
+
 export const StaticPages = [
   {
     id: 1,

@@ -3,7 +3,14 @@
 import { useState } from "react";
 import Link from "next/link";
 
-import { siteMetadata, StaticPages } from "@/content/data/siteMetaData";
+import {
+  MainNav,
+  siteMetadata,
+  StaticPages,
+} from "@/content/data/siteMetaData";
+
+import { SitePages } from "@/content/data/sitePages";
+import { getLink } from "@/lib/getLink";
 
 import IconComponent from "@/components/ui/IconComponent";
 import { footerReyhan } from "@/public/assets/images";
@@ -17,6 +24,8 @@ export default function Header() {
     setIcon(false);
   };
   // && m.id > 0
+  const sitePagesMain = SitePages.filter((m) => m.pid === 0);
+
   const menu = StaticPages.filter((m) => m.id < 4);
   const menu2 = StaticPages.filter((m) => m.id < 100);
   return (
@@ -36,17 +45,19 @@ export default function Header() {
         </div>
         <nav className="fixed px-2 border border-solid rounded-full font-light text-xs md:text-base bg-opacity-40 top-2 right-1/2 translate-x-1/2 bg-light/60 backdrop-blur-sm z-50 bg-white flex justify-center items-center h-8">
           <ul className="flex justify-center items-center gap-0">
-            {menu.map((p) => (
+            {MainNav.map((p) => (
               <li
-                key={p.id}
-                className={`leading-4 hover:bg-gray-100 rounded-xl py-1 px-2 md:px-3`}
+                key={p}
+                className={`leading-4 hover:bg-gray-100 rounded-xl py-1 px-2 md:px-3 ${
+                  p === 8 ? "bg-gray-200" : ""
+                }`}
               >
                 {/* ${ id === p.id ? "text-primary" : "" } */}
                 <Link
                   onClick={handleSmallerScreensNavigationClose}
-                  href={`/${p.link}`}
+                  href={`/${SitePages.find((x) => x.id === p).link}`}
                 >
-                  {p.title.toLowerCase()}
+                  {SitePages.find((x) => x.id === p).title.toLowerCase()}
                 </Link>
               </li>
             ))}
@@ -71,17 +82,30 @@ export default function Header() {
           {/* Smaller screen navbar */}
           <div className="py-4">
             <ul className="mx-auto w-96 text-2xl text-center text-primary-light-3">
-              {menu2.map((p) => (
+              {sitePagesMain.map((p) => (
                 <li key={p.id} className={`py-2 `}>
                   <Link
                     onClick={handleSmallerScreensNavigation}
                     href={`/${p.link}`}
-                    className=" hover:text-accent cursor-pointer border-b border-primary-light-2"
+                    className=" hover:text-accent cursor-pointer"
                   >
                     {p.title.toLocaleUpperCase("TR")}
                   </Link>
-
                   <ul className="flex flex-wrap justify-center items-center gap-2 ">
+                    {SitePages.filter((m) => m.pid === p.id).map((p2) => (
+                      <li key={p2.id} className="text-sm">
+                        <a
+                          href={`${getLink(p2.id)}`}
+                          onClick={handleSmallerScreensNavigation}
+                          className=" hover:text-accent cursor-pointer border-b border-primary-light-2"
+                        >
+                          {p2.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+
+                  {/* <ul className="flex flex-wrap justify-center items-center gap-2 ">
                     {p.pages.map((p2) => (
                       <li key={p2.id} className="text-sm">
                         <Link
@@ -93,7 +117,7 @@ export default function Header() {
                         </Link>
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
                 </li>
               ))}
             </ul>
