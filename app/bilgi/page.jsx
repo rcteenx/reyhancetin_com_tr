@@ -57,6 +57,7 @@ export default function StaticPage() {
       </BlueContent>
       <SubMenu />
       <SocialMedia />
+      
     </>
   );
 }
