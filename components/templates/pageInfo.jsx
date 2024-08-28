@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { SitePages } from "@/content/data/sitePages";
-import { getLink } from "@/lib/getLink";
+import { getLink, getLongTitle } from "@/lib/getLink";
 
 import IconComponent from "@/components/ui/IconComponent";
 
@@ -17,7 +17,7 @@ export default function PageInfo({ id, id2 }) {
           <ul>
             {page.relatedPage.map((rp) => (
               <li key={rp}>
-                <a href={`${getLink(rp)}`}>
+                <a href={`${getLink(rp)}`} title={`${getLongTitle(rp)}`}>
                   {SitePages.filter((sp) => sp.id == rp)[0].title}
                 </a>
               </li>
@@ -34,10 +34,16 @@ export default function PageInfo({ id, id2 }) {
         <div id="pgSticker">
           <div className="mx-auto px-4 pb-2 lg:max-w-sm shadow-xl">
             <h2>{page.titleLong}</h2>
-            <div>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: page.description,
+              }}
+            ></p>
+            {subMenu}
+            {/* <div>
               <p>{page.description}</p>
               {subMenu}
-            </div>
+            </div> */}
           </div>
         </div>
         <div id="pgHeader">

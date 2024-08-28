@@ -7,7 +7,8 @@ export const SitePages = [
     icon: "platform",
     titleLong: "Biz Hakkında",
     description:
-      "Bu site ve içeriğin büyük bölümü Reyhan Çetin imzasıyla ortaya çıktı. Bize, özgün ve bağımsız varlıklar olduğumuz öğretilmiş olsa da, bizi oluşturan pek çok şey var: Başta Reyhan'ın kendisi, arkadaşları, zamanın ruhu ve hatta olan her şey. Bu nedenle, kendimizi bir ben değil, ama tüm 'olan'la sürekli etkileşim halinde bir 'biz' olarak görmek daha gerçekçi olabilir. Siz hangi 'biz'i tanımak istersiniz?",
+      "Bu web sitesi ve içeriğin büyük bölümü <a href='/biz/reyhan'>Reyhan Çetin</a> imzasıyla yayına geçti. Bize, özgün ve bağımsız varlıklar olduğumuz öğretilmiş olsa da, bizi oluşturan pek çok şey var: Başta Reyhan'ın kendisi, arkadaşları, zamanın ruhu ve hatta olan her şey. Bu nedenle, kendimizi bir ben değil, ama tüm 'olan'la sürekli etkileşim halinde ve değişen bir 'biz' olarak görmek daha gerçekçi olabilir.",
+    // bana hikaye anlatma...
     relatedPage: [11, 12], //  12, 13, 14
     h1: "BİZ KİMİZ?",
     par: [
@@ -24,7 +25,7 @@ export const SitePages = [
     titleLong: "Reyhan Hakkında",
     description:
       "Dışarıdan bakınca tek bir fizik beden ve TC kimlik numarası ile temsil edilsek de, pek çoğumuz içimizde tek ve bütün değiliz: Pek çok farklı duygu, alışkanlık, tutum, rol, fikir ve fazlasından oluşan ve homojen olmayan bir yığınız. Her biri iktidar olmak isteyen bu küçük benliklerin arasında, kim olduğumuzu aramak kaçınılmaz bir yolculuğu başlatıyor. Siz hangi Reyhan'ı tanımak isterdiniz?",
-    relatedPage: [111, 112, 113, 114, 115],
+    relatedPage: [111],
     h1: "REYHAN ÇETİN KİMDİR?",
     par: [
       "Reyhan, yaklaşık 25 yıldır bilinç ve farkındalık çalışmaları yapıyor ve yönetiyor. Önce bir arayış olarak başlayan süreç, sonrasında ezoterik felsefe çalışmalarına yöneldi.",
@@ -43,7 +44,7 @@ export const SitePages = [
     titleLong: "Reyhan'ın Özgeçmişi",
     description:
       "Aynı geçmişi, farklı amaçlar için bambaşka kelimelerle anlatılabilir. Bu sayfada genel merakı tatmin etmek için, televizyon yarışmaları için hazırlanmış kısa ve klasik özgeçmiş oluşturduk.",
-    relatedPage: [112, 113, 114, 115],
+    relatedPage: [1, 11],
     h1: "KLASİK ÖZGEÇMİŞ",
     par: [
       "1976 yılında Biga'da doğdu. Baba kamyon şoförü, anne ev hanımı.",
@@ -55,54 +56,7 @@ export const SitePages = [
       "Evli ve üç çocuk babasıdır.",
     ],
   },
-  {
-    id: 112,
-    pid: 11,
-    title: "Roller",
-    link: "roller",
-    icon: "platform",
-    titleLong: "Rollerim Hakkımda",
-    description: "....",
-    relatedPage: [1, 12],
-    h1: "ROLLERİM KİMİM?",
-    par: ["..."],
-  },
-  {
-    id: 113,
-    pid: 11,
-    title: "Makine",
-    link: "makine",
-    icon: "platform",
-    titleLong: "Makine Hakkında",
-    description: "....",
-    relatedPage: [1, 12],
-    h1: "MAKİNE NEDİR?",
-    par: ["..."],
-  },
-  {
-    id: 114,
-    pid: 11,
-    title: "Bilinç",
-    link: "bilinc",
-    icon: "platform",
-    titleLong: "Bilinç Hakkında",
-    description: "....",
-    relatedPage: [1, 12],
-    h1: "BİLİNÇ NE?",
-    par: ["..."],
-  },
-  {
-    id: 115,
-    pid: 11,
-    title: "Farkındalık",
-    link: "farkindalik",
-    icon: "platform",
-    titleLong: "Saf Farkındalık Hakkında",
-    description: "....",
-    relatedPage: [1, 12],
-    h1: "SAF FARKINDALIK NE?",
-    par: ["..."],
-  },
+
   {
     id: 12,
     pid: 1,
