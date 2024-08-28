@@ -7,7 +7,7 @@ export const SitePages = [
     icon: "platform",
     titleLong: "Biz Hakkında",
     description:
-      "Dışarıdan bakınca tek bir fizik beden ve tc kimlik numarası ile temsil edilsek de, içimizde tek ve bütün değiliz: Pek çok farklı duygu, alışkanlık, tutum, rol, fikir ve fazlasından oluşan bir yığınız. Her biri iktidar olmak isteyen bu küçük ben'lerin savaşı, hepimizi yolculuğa başlatıyor.",
+      "Dışarıdan bakınca tek bir fizik beden ve tc kimlik numarası ile temsil edilsek de, içimizde tek ve bütün değiliz: Pek çok farklı duygu, alışkanlık, tutum, rol, fikir ve fazlasından oluşan bir yığınız. Her biri iktidar olmak isteyen bu küçük ben'lerin savaşı, hepimizi yolculuğa başlatıyor. ",
     relatedPage: [11, 12, 13, 14],
     h1: "BİZ KİMİZ?",
     par: [
