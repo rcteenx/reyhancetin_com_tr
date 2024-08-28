@@ -8,8 +8,8 @@ export const SitePages = [
     titleLong: "Biz Hakkında",
     description:
       "Dışarıdan bakınca tek bir fizik beden ve tc kimlik numarası ile temsil edilsek de, içimizde tek ve bütün değiliz: Pek çok farklı duygu, alışkanlık, tutum, rol, fikir ve fazlasından oluşan bir yığınız. Her biri iktidar olmak isteyen bu küçük ben'lerin savaşı, hepimizi yolculuğa başlatıyor.",
-    relatedPage: [11, 12, 13],
-    h1: "REYHAN ÇETİN KİMDİR?",
+    relatedPage: [11, 12, 13, 14],
+    h1: "BİZ KİMİZ?",
     par: [
       "Reyhan, yaklaşık 25 yıldır bilinç ve farkındalık çalışmaları yapıyor ve yönetiyor. Önce bir arayış olarak başlayan süreç, sonrasında ezoterik felsefe çalışmalarına yöneldi.",
       "Yaklaşık 10 yıl boyunca çeşitli gruplarla çalıştıktan sonra, kendi çalışmalarını yönetmeye başladı. Eğitmenlik döneminde binlerce seminer verdi ve yüzlerce katılımcıya ulaşan moderatörlü grup çalışmalarını yönetti.",
@@ -125,6 +125,24 @@ export const SitePages = [
     description:
       "Dışarıdan bakınca tek bir fizik beden ve tc kimlik numarası ile temsil edilsek de, içimizde tek ve bütün değiliz: Pek çok farklı duygu, alışkanlık, tutum, rol, fikir ve fazlasından oluşan bir yığınız. Her biri iktidar olmak isteyen bu küçük ben'lerin savaşı, hepimizi yolculuğa başlatıyor.",
     h1: "REYHAN ÇETİN KİMDİR?",
+    par: [
+      "Reyhan, yaklaşık 25 yıldır bilinç ve farkındalık çalışmaları yapıyor ve yönetiyor. Önce bir arayış olarak başlayan süreç, sonrasında ezoterik felsefe çalışmalarına yöneldi.",
+      "Yaklaşık 10 yıl boyunca çeşitli gruplarla çalıştıktan sonra, kendi çalışmalarını yönetmeye başladı. Eğitmenlik döneminde binlerce seminer verdi ve yüzlerce katılımcıya ulaşan moderatörlü grup çalışmalarını yönetti.",
+      "Pandemi döneminde yüz yüze çalışmalarını durdurdu. Ardından bilinç çalışmalarının ötesinde, sessizlik ve ikinci bir arayış dönemini başladı. Dünyayı yorumlamaya yönelik ben bilincini, her şeyin ötesindeki saf farkındalıktan ayırmayı anladığında, gerçek sevgi ve biz halini yaşatan bütünlüğü kavradı.",
+      "Çalışmalarının ortak dünyada sağlam bir zemine oturması ve daha fazla insana ulaşması için, ICF standartlarında kabul edilen koçluk etik ve yetkinliklerini benimseyerek, çalışmalarını bu sisteme göre yeniden düzenledi.",
+      "Şimdi ezoterik felsefe eğitimleri, grup çalışmaları ve koçluk seanslarıyla, yolculuğa devam edenlere bilinç ve farkındalığını kiralayarak yol arkadaşlığı yapmaya çalışıyor.",
+    ],
+  },
+  {
+    id: 14,
+    pid: 1,
+    title: "Dünya",
+    link: "dunya",
+    icon: "platform",
+    titleLong: "Dünya Hakkında",
+    description:
+      "Dışarıdan bakınca tek bir fizik beden ve tc kimlik numarası ile temsil edilsek de, içimizde tek ve bütün değiliz: Pek çok farklı duygu, alışkanlık, tutum, rol, fikir ve fazlasından oluşan bir yığınız. Her biri iktidar olmak isteyen bu küçük ben'lerin savaşı, hepimizi yolculuğa başlatıyor.",
+    h1: "DÜNYA NEDİR?",
     par: [
       "Reyhan, yaklaşık 25 yıldır bilinç ve farkındalık çalışmaları yapıyor ve yönetiyor. Önce bir arayış olarak başlayan süreç, sonrasında ezoterik felsefe çalışmalarına yöneldi.",
       "Yaklaşık 10 yıl boyunca çeşitli gruplarla çalıştıktan sonra, kendi çalışmalarını yönetmeye başladı. Eğitmenlik döneminde binlerce seminer verdi ve yüzlerce katılımcıya ulaşan moderatörlü grup çalışmalarını yönetti.",
