@@ -7,13 +7,17 @@ export const SitePages = [
     icon: "platform",
     titleLong: "Biz Hakkında",
     description:
-      "Bu web sitesi ve içeriğin büyük bölümü <a href='/biz/reyhan'>Reyhan Çetin</a> imzasıyla yayına geçti. Bize, özgün ve bağımsız varlıklar olduğumuz öğretilmiş olsa da, bizi oluşturan pek çok şey var: Başta Reyhan'ın kendisi, arkadaşları, zamanın ruhu ve hatta olan her şey. Bu nedenle, kendimizi bir ben değil, ama tüm 'olan'la sürekli etkileşim halinde ve değişen bir 'biz' olarak görmek daha gerçekçi olabilir.",
+      "Bu web sitesi ve içeriğin büyük bölümü <a href='/biz/reyhan'>Reyhan Çetin</a>'in parmaklarıyla dijital ortama aktarıldı. ",
+    // Ancak bu sadece bir isim ve şekil.
+    //   "Bu web sitesi ve içeriğin büyük bölümü <a href='/biz/reyhan'>Reyhan Çetin</a> adı altında yayına geçti. Bize, özgün ve bağımsız varlıklar olduğumuz öğretilmiş olsa da, bizi oluşturan pek çok şey var: Başta Reyhan'ın kendisi, arkadaşları, zamanın ruhu ve hatta olan her şey. Bu nedenle, kendimizi bir ben değil, ama tüm 'olan'la sürekli etkileşim halinde ve değişen bir 'biz' olarak görmek daha gerçekçi olabilir.",
     // bana hikaye anlatma...
     relatedPage: [11, 12], //  12, 13, 14
     h1: "BİZ KİMİZ?",
     par: [
-      "Biz, tüm insanlar olarak, arkeolojik bulgulara göre muhtemelen son 10-12 bin yıldır kendimizi tanımaya çalışıyoruz. Kendimizden kendimize yaptığımız bu yolculuk, önce çeşitli mit, din, öğreti ve felsefe ekollerinde ortaya çıktı. Sonrasında, görece modern zamanlarda ise edebiyat, resim, heykel, müzik, tiyatro ve sinema gibi sanat dallarında anlatıldı.",
+      "Ne yazık ki bilmiyoruz. Bazen bu sorunun cevabını anlıyoruz gibi; sonra bir anda bu anlayış kayboluveriyor.",
+      "Biz, tüm insanlar olarak, arkeolojik bulgulara göre, muhtemelen son 10-12 bin yıldır kendimizi tanımaya çalışıyoruz. Kendimizden kendimize yaptığımız bu yolculuk, önce çeşitli mit, din, öğreti ve felsefe ekollerinde ortaya çıktı. Sonrasında, görece modern zamanlarda ise edebiyat, resim, heykel, müzik, tiyatro ve sinema gibi sanat dallarında anlatıldı.",
       "Biz o yolculuğu halen yapmakta olan, yapmış ve yapacak olanlarız.",
+      "Ne yazık ki bu da çok dar bir tanım oldu. Sadece insanlar değil, diğer hayvanlar, bitkiler ve hatta tek hücreli canlılar da kendi yolculuklarında. Onların yolculuklarından da çok şey aldık ve hep birlikte biz olduk.",
     ],
   },
   {
